@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstpart{
+    background-color:#1F2937;
+}
+
+.logo,h1{
+    font-size: 35px;
+    color: #F9FAF8;
+    margin-left: 50px;
+}
+
+.list, ul, li{
+    display: flex;
+    list-style: none;
+    color: #F9FAF8;
+    flex-direction: row;
+    margin-inline: 20px;
+    font-size: 20px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+   
+}
+
+
+.left{
+    color: #F9FAF8;
+    padding: 110px;
+    margin: 10px;
+}
+#hero{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#button1{
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 58px;
+    width: 150px;
+    font-size: 18px;
+
+}
+
+img{
+    float: right;
+    height: auto;
+    width: 400px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.right, img{
+    padding: 40px
+}
+
+.topic{
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.images, p {
+    text-align: center;
+}
+
+
+.thirdpart{
+    background-color: #E5E7EB;
+}
+
+.quot{
+    padding: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: end;
+    font-style: italic;
+}
+#author{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    font-style: normal;
+}
+
+.fourth{
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    flex-direction: column;
+    margin: 100px;
+    border-radius: 20px;
+    
+    
+}
+
+#call, #signuptext{
+    display: flex;
+    color: #E5E7EB;
+    justify-content: left;
+}
+
+#button2{
+    display: flex;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 58px;
+    width: 125px;
+    font-size: 18px;
+    justify-content: center;
+    align-self: flex-end;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+}
